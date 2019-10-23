@@ -1,0 +1,120 @@
+body {
+    margin: 7px 10px;
+    color: #5F6368;
+    font-family: "Arial";
+}
+
+.top {
+    height: 150px;
+/*    border: 2px solid blue;*/
+}
+nav {
+    padding: 0px;
+}
+nav ul {
+    list-style: none;
+    margin: 13px 0px 0px 10px;
+    padding: 0px;
+    display:flex;
+}
+nav a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.lewe {
+    float: left;    
+}
+.lewe li {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.prawe {
+    float: right;
+    padding-right: 20px;
+}
+
+.prawe li {   
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.image {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -2.5px;
+}
+
+.button {
+    border: none;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    background-color: #0099cc;
+    color: #fff; 
+    border-radius: 1px;
+    position: relative;
+    vertical-align: middle;    
+}
+
+.middle {
+    height: 200px;
+/*    border: 2px solid red;*/
+}
+.google {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*    width: 20%;*/
+    padding-top: 35px;
+}
+
+
+input {
+    margin-top: 25px;
+    display: block;
+    background-image: url(lupka.png);
+    background-size: 15px 15px;
+    background-position: 15px 13px;
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 10px;
+    width: 580px;
+    height: 35px;
+    margin-left:  auto;
+    margin-right: auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0)
+}
+
+.batonsy {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.batonsy a {
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 15px;   
+    font-size: 15px;    
+    border: none; 
+    text-align: center;
+}
+
+/*
+.dolny {
+    background-color: #f2f2f2;
+    font-size: 15px;
+    padding-left: 27px;
+}*/
