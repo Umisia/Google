@@ -1,17 +1,18 @@
 body {
-    margin: 7px 10px;
+    margin: 0px;
     color: #5F6368;
     font-family: "Arial";
 }
 
 .top {
     height: 150px;
+    margin: 3px 12px;
 /*    border: 2px solid blue;*/
 }
 nav {
     padding: 0px;
 }
-nav ul {
+nav ul{
     list-style: none;
     margin: 13px 0px 0px 10px;
     padding: 0px;
@@ -20,6 +21,12 @@ nav ul {
 nav a {
     text-decoration: none;
     font-size: 13px;
+    color: #5F6368;
+    font-family: "Arial";
+}
+
+nav li:not(:last-of-type):hover{
+    text-decoration: underline;
 }
 
 .lewe {
@@ -32,7 +39,7 @@ nav a {
 }
 .prawe {
     float: right;
-    padding-right: 20px;
+    padding-right: 6px;
 }
 
 .prawe li {   
@@ -41,10 +48,11 @@ nav a {
     padding-left: 2px;
 }
 .image {
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     position: relative;
     top: -2.5px;
+    filter: opacity(60%);
 }
 
 .button {
@@ -79,20 +87,20 @@ input {
     background-size: 15px 15px;
     background-position: 15px 13px;
     background-repeat: no-repeat;
-    padding: 5px 10px 5px 10px;
-    width: 580px;
+    padding: 5px 10px 5px 40px;
+    width: 540px;
     height: 35px;
     margin-left:  auto;
     margin-right: auto;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
+    font-size: 15px;
 }
 
 input:hover {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0)
 }
-
 .batonsy {
     margin-left: auto;
     margin-right: auto;
@@ -101,6 +109,8 @@ input:hover {
 }
 
 .batonsy a {
+    color: #5F6368;
+    font-family: "Arial";
     margin-left: 20px;
     margin-top: 30px;
     background-color: #f2f2f2;
@@ -112,9 +122,59 @@ input:hover {
     text-align: center;
 }
 
-/*
+.batonsy a:hover {
+    box-shadow: 0 1px 2px 0 rgba(32, 33, 40, 0.28);
+}
+
 .dolny {
+    background-color: #f2f2f2;  
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid #dcd9d9;    
+}
+
+
+.UK {
+    line-height: 40px;
+    padding-left: 27px;  
+    font-size: 14px;
+}
+
+.lista {
     background-color: #f2f2f2;
-    font-size: 15px;
+    line-height: 40px;
+    border-top: 1px solid #dcd9d9;    
+}
+
+.lista ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0px; 
+    margin-top: 0px;  
+    margin-bottom: 0px;    
+}
+
+.lista a {
+    text-decoration: none;
+    color: #5F6368;
+    font-family: "Arial";
+    font-size: 13px;
+}
+.ft_lewy {
+    float: left;
+    padding-left: 0px;
+}
+.ft_prawy {
+    float: right;
+    margin-right: 40px;
+}
+
+
+.lista li {
     padding-left: 27px;
-}*/
+}
+
+.lista a:hover {
+    text-decoration: underline;
+}
